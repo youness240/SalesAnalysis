@@ -1,0 +1,277 @@
+html, body, .container-fluid, .row{
+    font-family: 'Lato', sans-serif;
+    height: 1000px;
+}
+
+.row{
+    height: 100%;
+}
+
+.container-fluid{
+    width: 100%;
+    background-color: #181921;
+}
+
+.bg-menu{
+    background-color: #252831;
+    padding-top: 45px;
+    width: 100%;
+}
+
+.logo{
+    text-align: center;
+    margin-bottom: 150px;
+}
+
+.logo img{
+    width: 15%;
+}
+
+.logo h4{
+    color:#9da5b9;
+    font-size: 17px;
+    text-align: center;
+    display: inline;
+    vertical-align: middle;
+}
+
+.nav-item{
+    margin-bottom: 15px;
+}
+
+.section{
+    color: #ABB2C6;
+}
+
+.section:hover{
+    transition: 0.5s;
+    color: #89CCFE;
+    border-left: solid 2px #89CCFE;
+    margin-left: 20px;
+}
+
+.icons{
+    width: 100%;
+    text-align: right;
+    margin-top: -10px;
+}
+
+.rounded-pill{
+    background-color:#242732
+}
+
+.calendar{
+    background-color: #242732;
+    border-radius: 20px;
+    width: 100%;
+    margin-left: 0px;
+}
+
+.total-customer{
+    background-color: #242732;
+    width: 100%;
+    border-radius: 20px;
+    vertical-align: middle;
+    margin-top: -40px;
+    margin-bottom:80px;
+    
+}
+
+.total-revenue{
+    background-color: #242732;
+    width: 100px;
+    border-radius: 20px;
+    margin-top: -40px;
+    margin-bottom:80px;
+}
+.total-profit{
+    background-color: #242732;
+    width: 100%;
+    border-radius: 20px;
+    margin-top: -40px;
+    margin-bottom:80px;
+}
+
+.total{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    height: 110px;
+}
+
+.total-cust{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.total-cust p{
+    vertical-align: bottom;
+    margin-bottom: 0px;
+}
+
+.total-cust .pourc{
+    color: #e33b35;
+    font-size: 75%;
+    vertical-align: bottom;
+    margin-bottom: 0px;
+}
+
+.total-rev{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.total-rev p{
+    vertical-align: bottom;
+    margin-bottom: 0px;
+}
+
+.total-rev .pourc{
+    color: #35e3a0;
+    font-size: 75%;
+    vertical-align: bottom;
+    margin-bottom: 0px;
+}
+
+.total-prof{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.total-prof p{
+    vertical-align: bottom;
+    margin-bottom: 0px;
+}
+
+.total-prof .pourc{
+    color: #e33b35;
+    font-size: 75%;
+    vertical-align: bottom;
+    margin-bottom: 0px;
+}
+
+
+.date-select{
+    width: 100%;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    margin-right: 30px;
+    margin-left: 20px;
+}
+
+.date-select .arrows{
+    width: 50px;
+    height: 24px;
+}
+
+.date-select .arrows a{
+    width: 50px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.date-select .arrows a:hover{
+    width: 100px;
+    height: 100px;
+    color: #242732;
+    background-color: #60C8FB;
+    border-radius: 50%;
+    font-weight: bold;
+}
+
+.date-select p{
+    display: inline;
+    vertical-align: middle;
+}
+
+.jour{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 30px;
+    margin-right: 50px;
+}
+
+.jour-num{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 17.5px;
+    padding-right: 30px;
+    vertical-align: middle;
+    margin-bottom: 5px;
+}
+
+.calendar{
+    padding-bottom: 10px;
+}
+
+.jour-num .day{
+    background-color: #181921;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    padding-bottom: 20px;
+    border-radius: 50%;
+    padding-top: 7px;
+    color: #fff;
+    border: 0;
+    
+}
+
+.day, .actual-day{
+    margin-right: 12px;
+}
+
+.actual-day{
+    background-color: #60C8FB;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    padding-bottom: 20px;
+    border-radius: 50%;
+    padding-top: 7px;
+    color: #181921;
+    border:0;
+}
+
+#map{
+    height: 100%;
+    width: 100%;
+}
+
+.memojis{
+    display: flex;
+    justify-content: space-between;
+    height: 75%;
+}
+
+.memojis .memoji{
+    height: 150px;
+    width: 150px;
+    background-color: #242732;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   border-radius: 30%;
+}
+
+.memojis .memoji img{
+    width: 75px;
+    margin-top: -20px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.memojis .memoji h5{
+    margin-right: 0px;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
